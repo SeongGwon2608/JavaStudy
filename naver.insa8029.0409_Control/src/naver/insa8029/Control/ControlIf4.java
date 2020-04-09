@@ -1,27 +1,27 @@
 package naver.insa8029.Control;
-//Test
+
 import java.util.Scanner;
 
 public class ControlIf4 {
 
 	public static void main(String[] args) {
-		// if ~ else if ~ else ±¸¹®
+		// if ~ else if ~ else êµ¬ë¬¸
 		// Test 4
-		// Á¡¼ö¸¦ ÀÔ·Â ¹Ş¾Æ¼­ 80 ~100 ÀÌ¸é ¿ì¼ö, 60~79 ÀÌ¸é º¸Åë, 0~59 ÀÌ¸é ³ë·Â, ³ª¸ÓÁö´Â Àß¸øµÈ Á¡¼ö ÀÔ·Â
+		// ì ìˆ˜ë¥¼ ì…ë ¥ ë°›ì•„ì„œ 80 ~100 ì´ë©´ ìš°ìˆ˜, 60~79 ì´ë©´ ë³´í†µ, 0~59 ì´ë©´ ë…¸ë ¥, ë‚˜ë¨¸ì§€ëŠ” ì˜ëª»ëœ ì ìˆ˜ ì…ë ¥
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À(0~100) : ");
+		System.out.print("ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤(0~100) : ");
 		int score = sc.nextInt();
 		
 		if(score <= 100 && score >= 80) {
-			System.out.println("¿ì¼ö!");
+			System.out.println("ìš°ìˆ˜!");
 		}else if(score < 80 && score >= 60) {
-			System.out.println("º¸Åë!");
+			System.out.println("ë³´í†µ!");
 		}else if(score < 60 && score >= 0) {
-			System.out.println("³ë·Â!");
+			System.out.println("ë…¸ë ¥!");
 		}else {
-			System.out.println("Àß¸øµÈ °ªÀ» ÀÔ·ÂÇÏ¿´½À´Ï´Ù!");
+			System.out.println("ì˜ëª»ëœ ê°’ì„ ì…ë ¥í•˜ì˜€ìŠµë‹ˆë‹¤!");
 		}
 		
 		sc.close();

@@ -1,5 +1,5 @@
 package naver.insa8029.Control;
-
+//Test
 import java.util.Scanner;
 
 public class ControlIf4 {

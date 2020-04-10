@@ -119,7 +119,7 @@ public class While {
 		while(idx <12) {
 			System.out.println(name + (4-(idx %3 +1)) + ".png");
 			idx += 1;
-			//idx
+			//idxwfwfwfwfawf
 		}
 	}
 }

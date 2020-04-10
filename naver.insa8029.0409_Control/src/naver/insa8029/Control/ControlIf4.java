@@ -5,23 +5,24 @@ import java.util.Scanner;
 public class ControlIf4 {
 
 	public static void main(String[] args) {
-		// if ~ else if ~ else ±¸¹®
+		// if ~ else if ~ else ï¿½ï¿½ï¿½ï¿½
 		// Test 4
-		// Á¡¼ö¸¦ ÀÔ·Â ¹Þ¾Æ¼­ 80 ~100 ÀÌ¸é ¿ì¼ö, 60~79 ÀÌ¸é º¸Åë, 0~59 ÀÌ¸é ³ë·Â, ³ª¸ÓÁö´Â Àß¸øµÈ Á¡¼ö ÀÔ·Â
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½Þ¾Æ¼ï¿½ 80 ~100 ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½, 60~79 ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½, 0~59 ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½
 		
+		//push Test
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À(0~100) : ");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¿ï¿½(0~100) : ");
 		int score = sc.nextInt();
 		
 		if(score <= 100 && score >= 80) {
-			System.out.println("¿ì¼ö!");
+			System.out.println("ï¿½ï¿½ï¿½!");
 		}else if(score < 80 && score >= 60) {
-			System.out.println("º¸Åë!");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½!");
 		}else if(score < 60 && score >= 0) {
-			System.out.println("³ë·Â!");
+			System.out.println("ï¿½ï¿½ï¿½!");
 		}else {
-			System.out.println("Àß¸øµÈ °ªÀ» ÀÔ·ÂÇÏ¿´½À´Ï´Ù!");
+			System.out.println("ï¿½ß¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½!");
 		}
 		
 		sc.close();

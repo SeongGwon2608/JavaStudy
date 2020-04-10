@@ -9,7 +9,7 @@ public class While {
 
 		System.out.println("======================");
 
-		// Ãâ¹ßÁ¡
+		// ï¿½ï¿½ï¿½ï¿½ï¿½
 		int idx = 0;
 		while (idx < 3) {
 			System.out.println("Java");
@@ -17,7 +17,7 @@ public class While {
 		}
 		System.out.println(idx);
 
-		// Image1, Image2, Image3À» ¼ø¼­´ë·Î Ãâ·Â - while ÀÌ¿ë
+		// Image1, Image2, Image3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ - while ï¿½Ì¿ï¿½
 		String name = "Image";
 		idx = 1;
 
@@ -27,7 +27,7 @@ public class While {
 		}
 		System.out.println("=====================");
 
-		// Image2, Image4, Image6À» ¼ø¼­´ë·Î Ãâ·Â - whileÀÌ¿ë
+		// Image2, Image4, Image6ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ - whileï¿½Ì¿ï¿½
 		idx = 1;
 		while (idx <= 3) {
 			System.out.println(name + (idx * 2));
@@ -35,8 +35,8 @@ public class While {
 		}
 		System.out.println("=====================");
 
-		// ¿¬½À¹®Á¦ 1
-		// image1.png, image2.png, image3.png, image4.png¸¦ ¼ø¼­´ë·Î Ãâ·ÂÇÏµµ·Ï whileÀÛ¼º
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 1
+		// image1.png, image2.png, image3.png, image4.pngï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½ whileï¿½Û¼ï¿½
 		idx = 1;
 		while (idx <= 4) {
 			System.out.println(name + idx + ".png");
@@ -44,11 +44,11 @@ public class While {
 		}
 		System.out.println("=====================");
 
-		// ¿¬½À¹®Á¦ 2
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2
 		// image1.png, image2.png, image3.png, image4.png, image1.png,
-		// image2.png, image3.png, image4.png¸¦ ¼ø¼­´ë·Î Ãâ·ÂÇÏµµ·Ï whileÀÛ¼º
-		// ´ÜÀÏ while
-		System.out.println("¿¬½À¹®Á¦ 1");
+		// image2.png, image3.png, image4.pngï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½ whileï¿½Û¼ï¿½
+		// ï¿½ï¿½ï¿½ï¿½ while
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 1");
 		idx = 1;
 		while (idx <= 4) {
 			System.out.println(name + idx + ".png");
@@ -61,8 +61,8 @@ public class While {
 		}
 		System.out.println("=====================");
 
-		// ÀÌÁß while - ¾ÆÁÖ ¾ÈÁÁÀº ÄÚµå;;; ½Ã°£º¹Àâµµ n¹è Áõ°¡
-		System.out.println("¿¬½À¹®Á¦ 2");
+		// ï¿½ï¿½ï¿½ï¿½ while - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½;;; ï¿½Ã°ï¿½ï¿½ï¿½ï¿½âµµ nï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2");
 		idx = 1;
 		int idx2 = 1;
 
@@ -76,10 +76,10 @@ public class While {
 		}
 		System.out.println("=====================");
 
-		//°£ÆíÇÏ°í º¸±â ÁÁÀº ¼Ò½º
-		//%¸¦ ÀÌ¿ëÇÏ¿© °á°ú µµÃâ
-		//´õ ±æ¾îÁ®µµ ´ëÃ³ °¡´É
-		System.out.println("¿¬½À¹®Á¦ 3");
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò½ï¿½
+		//%ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		//ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã³ ï¿½ï¿½ï¿½ï¿½
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 3");
 		idx = 0;
 
 		while (idx < 8) {
@@ -87,8 +87,8 @@ public class While {
 			idx += 1;
 		}
 		
-		//ÇÑ°Ü·¹ ½Å¹®Àå¼­ °í¹ÎÁ¤À¸·Î °Ë»öÇÑ °á°ú ÁÖ¼Ò
-		//0~9ÆäÀÌÁö±îÁöÀÇ ÁÖ¼Ò¸¦ ¹Ýº¹¹®À» ÀÌ¿ëÇØ¼­ Ãâ·ÂÇØº¸½Ã¿À
+		//ï¿½Ñ°Ü·ï¿½ ï¿½Å¹ï¿½ï¿½å¼­ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½
+		//0~9ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼Ò¸ï¿½ ï¿½Ýºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½Ø¼ï¿½ ï¿½ï¿½ï¿½ï¿½Øºï¿½ï¿½Ã¿ï¿½
 		idx = 0;
 		while(idx <10) {
 			System.out.println("http://search.hani.co.kr/Search?command=query&keyword="
@@ -98,7 +98,7 @@ public class While {
 		}
 		System.out.println("=====================");
 		
-		//image1.png, image2.png, image3.png ¸¦ ¹ø°¥¾Æ °¡¸ç 3¹ø¾¿ Ãâ·Â
+		//image1.png, image2.png, image3.png ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 		idx = 0;
 		while(idx< 9) {
 			System.out.println(name + (idx%3 + 1) + ".png");
@@ -106,7 +106,7 @@ public class While {
 		}
 		System.out.println("=====================");
 		
-		//Image1.png, Image3.png, Image5.png ¸¦ ¹ø°¥¾Æ °¡¸é¼­ 4¹ø Ãâ·Â
+		//Image1.png, Image3.png, Image5.png ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½é¼­ 4ï¿½ï¿½ ï¿½ï¿½ï¿½
 		idx = 0;
 		while(idx < 12) {
 			System.out.println(name + (idx%3 * 2 + 1) + ".png");
@@ -114,11 +114,12 @@ public class While {
 		}
 		System.out.println("=====================");
 		
-		//Image3.png, Image2.png, Image1.png¸¦ ¹ø°¥¾Æ °¡¸é¼­ 4¹ø Ãâ·Â
+		//Image3.png, Image2.png, Image1.pngï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½é¼­ 4ï¿½ï¿½ ï¿½ï¿½ï¿½
 		idx = 0;
 		while(idx <12) {
 			System.out.println(name + (4-(idx %3 +1)) + ".png");
 			idx += 1;
+			//idx
 		}
 	}
 }
